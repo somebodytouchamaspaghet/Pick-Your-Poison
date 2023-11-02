@@ -21,7 +21,7 @@ loom {
 }
 
 repositories {
-	maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+	maven { url 'https://dl.cloudsmith.io/public/geckolib4/geckolib/maven/' }
 	maven {
 		name = 'Ladysnake Mods'
 		url = 'https://ladysnake.jfrog.io/artifactory/mods'
@@ -41,7 +41,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.19:3.1.0'
+	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.20:4.2.4'
 
 	modImplementation "io.github.ladysnake:satin:1.8.0"
 	include "io.github.ladysnake:satin:1.8.0"
